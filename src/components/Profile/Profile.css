@@ -1,0 +1,32 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+.profile__title {
+    margin: 73px auto 125px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .profile__title {
+        margin: 235px auto 97px;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .profile__title {
+        margin: 70px auto 81px;
+        padding: 0;
+    }
+}

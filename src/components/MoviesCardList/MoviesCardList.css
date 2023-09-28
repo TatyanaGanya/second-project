@@ -1,0 +1,33 @@
+.cards {
+  padding: 70px 70px 80px;
+
+}
+
+.gallery__lists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 270px);
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 31px;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 80px;
+  margin: 0;
+
+
+}
+.cards__button {
+ display: block;
+  padding: 12px 145px;
+  margin: 0 auto;
+
+  border-radius: 6px;
+  background-color: #F9F9F9;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cards__button_hidden {
+  visibility: hidden;
+}

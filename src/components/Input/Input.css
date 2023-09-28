@@ -1,0 +1,65 @@
+
+.profile__laber {
+    border-bottom: #E8E8E8 1px solid;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile__laber:last-child {
+    border-bottom: #da1010 1px solid;
+}
+
+.profile__input {
+    border: none;
+    text-align: right;
+    margin: 0;
+    padding: 0 0 17px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+.profile__error {
+    opacity: 0;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #FF3055;
+    padding: 5px 0 0;
+}
+.profaile__change {
+    margin:183px auto 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.profile__out {
+    margin:18px auto 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #FF3055;
+  
+}
+@media only screen and (max-width: 768px) {
+    .profaile__change {
+        margin:175px auto 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profaile__change {
+        margin:343px auto 0;
+    }
+}
